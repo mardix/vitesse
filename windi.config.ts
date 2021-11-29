@@ -9,6 +9,7 @@ export default defineConfig({
 
   plugins: [
     typography(),
+    require('windicss/plugin/forms'),
   ],
   theme: {
     extend: {
@@ -40,4 +41,6 @@ export default defineConfig({
       },
     },
   },
+  // shortcuts
+  shortcuts: {}
 })

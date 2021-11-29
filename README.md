@@ -22,33 +22,24 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 - 📦 [Components auto importing](./src/components)
 
-- 🍍 [State Management via Pinia](https://pinia.esm.dev/)
+- 🍍 [State Management via Migos](https://TBD/)
 
 - 📑 [Layout system](./src/layouts)
-
-- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
 - 🎨 [Windi CSS](https://github.com/windicss/windicss) - next generation utility-first CSS framework
 
 - 😃 [Use icons from any icon sets, with no compromise](https://github.com/antfu/unplugin-icons)
 
-- 🌍 [I18n ready](./locales)
-
-- 🗒 [Markdown Support](https://github.com/antfu/vite-plugin-md)
 
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
 
-- 🖨 Server-side generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
 
 - 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
 
 - 🦾 TypeScript, of course
 
-- ⚙️ E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions)
-
-- ☁️ Deploy on Netlify, zero-config
 
 <br>
 
@@ -69,16 +60,12 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 - [Vue Router](https://github.com/vuejs/vue-router)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
   - [`vite-plugin-vue-layouts`](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - layouts for pages
-- [Pinia](https://pinia.esm.dev) - Intuitive, type safe, light and flexible Store for Vue using the composition api
+- [Migos](https://TBD) - Intuitive, type safe, light and flexible Store for Vue using the composition api
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
-- [`vite-plugin-pwa`](https://github.com/antfu/vite-plugin-pwa) - PWA
 - [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - Windi CSS Integration
-- [`vite-plugin-md`](https://github.com/antfu/vite-plugin-md) - Markdown as components / components in Markdown
-  - [`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism) - [Prism](https://prismjs.com/) for syntax highlighting
+
   - [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) - customizable Prism.js theme using CSS variables
-- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
-  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 - [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
 
@@ -108,7 +95,7 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 As this template is strongly opinionated, the following provides a curated list for community-maintained variations with different preferences and feature sets. Check them out as well. PR to add yours is also welcome!
 
 ###### Official
-
+- [vitesse](https://github.com/antfu/vitesse) - Original Vitesse
 - [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
 - [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse for Nuxt 3
 - [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
@@ -128,14 +115,14 @@ As this template is strongly opinionated, the following provides a curated list 
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse/generate).
+[Create a repo from this template on GitHub](https://github.com/mardix/vitesse/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse my-vitesse-app
+npx degit mardix/vitesse my-vitesse-app
 cd my-vitesse-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
